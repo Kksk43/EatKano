@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '刚才计时的时候 你有在偷懒罢';
+    if (score <= 49) return '喂 刚才计时的时候 你在偷懒罢';
     if (score <= 99) return '好啊 来啊';
     if (score <= 149) return '这个可以有';
     if (score <= 199) return '你是一个一个一个大触啊';
